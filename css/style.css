@@ -71,28 +71,27 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #222130;
+  background: #a2113e;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #222130;
+  background:#a2113e;
 }
 
 ::selection {
   color: #fff;
-  background: #222130;
+  background: #a2113e;
 }
 
 #fh5co-header,
 .fh5co-cover {
-  background-color: #222130;
+  background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   height: 600px;
   width: 100%;
-   
 }
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
@@ -101,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background:#d8a7b1;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -215,7 +214,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
-  color: #fff;
+  color: #4B3B40;
 }
 #fh5co-header .display-tc .fh5co-social-icons li a i,
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
@@ -223,10 +222,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #d8a7b1;
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: #4B3B40;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -258,7 +257,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #4B3B40 !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -266,7 +265,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: #4B3B40;
 }
 #fh5co-features .feature-left p {
   font-size: 16px;
@@ -309,7 +308,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #D8A7B1;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -391,8 +390,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #fff;
-  background: #2F3C4F;
+  color: #efd9b4;
+  background: #4b3b40;
   padding: 10px 10px 2px 10px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -403,7 +402,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: #a2113e;
 }
 
 .fh5co-heading {
@@ -416,12 +415,12 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #000;
+  color: #91011f;
 }
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #4b3b40;
 }
 .fh5co-heading span {
   display: block;
@@ -468,11 +467,12 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #e6e6e6;
+  background: #d8a7b1;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  color:#91011f;
 }
 @media screen and (max-width: 768px) {
   .timeline .timeline-heading > div h3 {
@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .timeline > li > .timeline-badge {
-  color: #fff;
+  color: #91011f;
   width: 44px;
   height: 44px;
   line-height: 50px;
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #d8a7b1;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -583,6 +583,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  color:#91011f;
 }
 
 .company {
